@@ -1,0 +1,211 @@
+.about_box{
+    max-width: 586px;
+    z-index: 5;
+}
+
+.about_box h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.about_box p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.blog_about_banner img{
+    width: 100%;
+    margin-top: 72px;
+}
+
+.blog_about_banner{
+    height: 520px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url(../projects/make.jpg);
+    z-index: 5;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog_about_banner::after{
+    content: "";
+    background: linear-gradient(58.54deg, #182b0a 21.32%, rgba(17,48,112,0) 71%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.mb_75{
+    margin-bottom: 75px;
+}
+
+.our_reflections_heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.news{
+    background-color: #176c7b;
+    width: 30%;
+    margin-top: 20px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.img{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.news-heading{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #0c1b39;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* .learn_btn_two{
+    color: #0c1b39;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    transition: color .2s ease;
+    text-decoration: none;
+}
+
+.learn_btn_two img{
+    font-size: 10px;
+} */
+
+.newsheading{
+    text-align: center;
+    font-size: 60px;
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.ourNews{
+    margin-top: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.news-box{
+    max-width: 745px;
+    margin: auto;
+}
+.tag-sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popular_tag{
+    color: #627aa9;
+    color: rgba(194, 199, 207, 0.45);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+.tag_nav .nav-link+ .nav-link{
+    margin-left: 10px;
+}
+.card_blog{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(67, 82, 135, 0.14);
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.nav-link{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    transition: all .6s ease-in-out;
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: inline-block;
+    background-color: transparent;
+    color: #a7c6ec;
+}
+
+.date_techno{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.date_text{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.tech_tag, .tech_tag:hover{
+    border-radius: 15px;
+    background: rgba(23, 59, 118, 0.45);
+    color: rgba(22, 22, 23, 0.7);
+    font-size: 12px;
+    line-height: 15px;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+
+
+/* -webkit-line-clamp: 2;  this command is for line limit*/
